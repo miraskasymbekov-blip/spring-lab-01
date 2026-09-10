@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-lab-01
+server:
+  port: 8080
+app:
+  owner: Miras Kassymbekov, IS-2301
+logging:
+  level:
+    web: INFO

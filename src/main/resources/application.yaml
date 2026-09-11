@@ -5,6 +5,7 @@ server:
   port: 8080
 app:
   owner: Miras Kassymbekov, IS-2301
+  date-pattern: yyyy-MM-dd HH:mm:ss
 logging:
   level:
     web: INFO

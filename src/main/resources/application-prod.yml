@@ -1,0 +1,13 @@
+server:
+  port: 8080
+app:
+  mail:
+    enabled: true
+    retry-count: 5
+  report:
+    timezone: Asia/Almaty
+    retention: 90d
+    include-charts: true
+logging:
+  level:
+    kz.iitu: WARN

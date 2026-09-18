@@ -1,0 +1,13 @@
+server:
+  port: 8081
+app:
+  mail:
+    enabled: false
+    retry-count: 1
+  report:
+    timezone: UTC
+    retention: 7d
+    include-charts: false
+logging:
+  level:
+    kz.iitu: DEBUG

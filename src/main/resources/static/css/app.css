@@ -1,0 +1,62 @@
+body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #f4f6fb;
+    color: #1f2937;
+    margin: 0;
+    padding: 32px;
+}
+
+h1 {
+    color: #1e3a8a;
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-width: 560px;
+}
+
+th, td {
+    padding: 10px 16px;
+    border: 1px solid #d1d5db;
+    text-align: left;
+}
+
+th {
+    background: #1e3a8a;
+    color: #ffffff;
+}
+
+tr:nth-child(even) td {
+    background: #f1f5f9;
+}
+
+.flash {
+    background: #dcfce7;
+    border: 1px solid #16a34a;
+    color: #14532d;
+    padding: 10px 16px;
+    border-radius: 4px;
+    max-width: 560px;
+}
+
+form {
+    margin-top: 8px;
+}
+
+input, button {
+    padding: 8px 10px;
+    margin-right: 6px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font: inherit;
+}
+
+button {
+    background: #1e3a8a;
+    border-color: #1e3a8a;
+    color: #ffffff;
+    cursor: pointer;
+}

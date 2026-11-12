@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Lab 6: file-based H2 database ###
+data/
